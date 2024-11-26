@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #06D6A0;
+}
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  justify-content: flex-end;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1000px) {
+  nav {
+    padding: 0 20px 0 50px;
+  }
+}
+
+.navbar img {
+  max-width: 100%;
+  height: 70px;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  list-style: none;
+  margin: 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white; /* Text color set to white */
+  text-transform: uppercase;
+  font-size: 13px;
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.menu ul li a:hover {
+  color: #118AB2; /* Hover color */
+}
+
+.btn {
+  display: inline-block; /* Ensures the button behaves like a block element */
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: 400;
+  border: 1px solid #118AB2;
+  border-radius: 5%;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #118AB2;
+  transition: 0.4s;
+}
+
+.main {
+  position: absolute;
+  color: white;
+  left: 8%;
+  top: 30%;
+}
+
+.main h1 {
+  text-transform: capitalize;
+  font-size: 60px;
+  margin: 20px 0;
+}
+
+.main h1 span {
+  color: #118AB2;
+}
+
+.main h4 {
+  text-transform: capitalize;
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.main p {
+  color: white;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 10px 0 100px 0;
+  flex-wrap: nowrap;
+}
+
+.main h3 {
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 20px 0;
+}
+
+.icon i {
+  color: white;
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.icon i:hover {
+  color: white;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #06D6A0; /* Match the background color */
+  color: white; /* Text color for footer */
+  text-align: center; /* Center text in footer */
+  padding: 20px 0; /* Padding for footer */
+}
+
+.footer p {
+  margin: 10px 0; /* Margin for paragraph in footer */
+  font-size: 18px; /* Font size for footer text */
+}
